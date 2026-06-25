@@ -11,4 +11,4 @@ define view entity ZI_CDS_16_DNAVAS
       Travel.total_price                                                as TotalPrice,
       Travel.currency_code                                              as CurrencyCode,
       _CurrencyText[1: Language = $session.system_language ].CurrencyName as CurrencyText
-}
+} 

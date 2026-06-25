@@ -1,0 +1,4 @@
+@EndUserText.label: 'Serevice Definition Custom Entity'
+define service ZSD_20_DNAVAS {
+  expose ZI_CDS_20_DNAVAS as Travel;
+}
